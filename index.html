@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./index.css" />
+        <script
+            src="https://kit.fontawesome.com/2f2b9ff750.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./js/login.js"></script>
+    </head>
+    <body>
+        <div class="main-window">
+            <div class="side-bar">
+                <div class="side-1">
+                    <div class="logo-1">
+                        <i class="fab fa-pied-piper-square fa-3x"></i>
+                    </div>
+                    <div class="logo-2" id="messages-icon">
+                        <a href="#"
+                            ><i
+                                class="fas fa-inbox fa-2x"
+                                onclick="showMessage()"
+                            ></i
+                        ></a>
+                    </div>
+                    <div class="logo-2" id="post-icon">
+                        <a href="#"
+                            ><i
+                                class="fas fa-user-friends fa-2x"
+                                onclick="showPosts()"
+                            ></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="side-2">
+                    <div>
+                        <fb:login-button
+                            id="login-button"
+                            id="fb-btn"
+                            scope="public_profile,email,user_posts,"
+                            onlogin="checkLoginState();"
+                        >
+                        </fb:login-button>
+                        <div id="logout-div" onclick="logout()"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div class="people">
+                    <div class="people-heading">
+                        <span class="heading">Conversation</span>
+                        <span><i class="fas fa-redo fa-1x"></i></span>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div class="messages-heading heading">Messages</div>
+                </div>
+            </div>
+            <div id="content-posts">
+                <div class="people-posts">
+                    <div class="people-heading">
+                        <span class="heading">Posts</span>
+                        <span><i class="fas fa-redo fa-1x"></i></span>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div class="messages-heading heading">Posts</div>
+                </div>
+            </div>
+            <div id="profile">
+                <div class="name-call-profile"></div>
+                <div class="coustomer-details"></div>
+            </div>
+        </div>
+
+        <script src="./"></script>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+i {
+    color: white;
+}
+/* main window */
+.main-window {
+    display: flex;
+}
+/* sidebar */
+.side-bar {
+    width: 8%;
+    height: 98vh;
+    background-color: #2e2eff;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* buttons */
+.side-1 {
+    height: 50%;
+    width: 100%;
+    border-bottom: 5px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 50px 15px;
+    justify-content: space-between;
+}
+/* photo */
+.side-2 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15px;
+}
+
+#logout-div {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#profile-photo {
+    width: 10px;
+    height: 10px;
+    border-radius: 25%;
+}
+
+.selectedBtn {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    align-items: center;
+    padding: 6px;
+}
+/* content */
+
+#content {
+    width: 70%;
+    height: 98vh;
+    display: flex;
+    border-top: #2e2eff 1px solid;
+    border-right: #2e2eff 1px solid;
+}
+.people {
+    width: 25%;
+    height: 98vh;
+    background-color: white;
+    border-right: #2e2eff 1px solid;
+    border-bottom: #2e2eff 1px solid;
+}
+
+.people-heading {
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: #2e2eff 1px solid;
+}
+
+.people-heading i {
+    color: black;
+}
+
+.heading {
+    font-size: 25px;
+}
+.messages {
+    width: 75%;
+    height: 98vh;
+    background-color: whitesmoke;
+    border-bottom: #2e2eff 1px solid;
+}
+.messages-heading {
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 10px;
+    border-bottom: #2e2eff 1px solid;
+}
+
+/* content-posts */
+
+#content-posts {
+    width: 70%;
+    height: 98vh;
+    display: flex;
+    border-top: #2e2eff 1px solid;
+    border-right: #2e2eff 1px solid;
+}
+.people-posts {
+    width: 25%;
+    height: 98vh;
+    background-color: white;
+    border-right: #2e2eff 1px solid;
+    border-bottom: #2e2eff 1px solid;
+}
+
+.people-heading {
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: #2e2eff 1px solid;
+}
+
+.people-heading i {
+    color: black;
+}
+
+.heading {
+    font-size: 25px;
+}
+.messages {
+    width: 75%;
+    height: 98vh;
+    background-color: whitesmoke;
+    border-bottom: #2e2eff 1px solid;
+}
+.messages-heading {
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 10px;
+    border-bottom: #2e2eff 1px solid;
+}
+
+/* Profile */
+#profile {
+    width: 22%;
+    height: auto;
+    background-color: white;
+    border-top: #2e2eff 1px solid;
+    border-bottom: #2e2eff 1px solid;
+    border-right: #2e2eff 1px solid;
+}
+.name-call-profile {
+    width: 100%;
+    height: 40%;
+    background-color: bisque;
+    margin-bottom: 5%;
+}
+.coustomer-details {
+    background-color: whitesmoke;
+    border-radius: 5%;
+    width: 95%;
+    height: 30%;
+    margin: auto;
+}
